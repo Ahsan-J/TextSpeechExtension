@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json.schemastore.org/chrome-manifest",
+  "manifest_version": 3,
+  "name": "Text Speech",
+  "description": "Allows you to speak the selected word in different set of configurations and accents",
+  "version": "1.0",
+  "permissions": [
+    "contextMenus",
+    "tabs",
+    "tts",
+    "storage"
+  ],
+  "icons": {
+    "48": "icons/icon.png"
+  },
+  "action": {
+    "default_popup": "index.html"
+  },
+  "background": {
+    "service_worker": "extension/background.js"
+  }
+}

@@ -1,0 +1,10 @@
+.main_container {
+    height: auto;
+    padding: 1rem;
+    width: 24rem;
+    border-radius: 0.2rem;
+}
+
+.dropdown, .dropdown > button {
+    width: 100% !important;
+}
